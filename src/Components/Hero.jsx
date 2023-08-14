@@ -49,14 +49,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
       <div className="grid md:grid-cols-4 md:grid-rows-2 gap-4 sm:grid-cols-1 sm:grid-rows-1">
         <img
           src={images1}
           alt=""
           className="col-span-2 row-span-2 md:rounded-l-xl rounded-none"
         />
-        <img src={images2} alt="" className="md:block hidden" />
+        <img src={images2} alt="" className="md:block hidden " />
         <img src={images3} alt="" className="rounded-r-xl md:block hidden" />
         <img src={images4} alt="" className="md:block hidden" />
         <img src={images1} alt="" className="rounded-r-xl md:block hidden" />
