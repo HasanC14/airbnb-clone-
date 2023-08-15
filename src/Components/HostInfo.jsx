@@ -19,8 +19,9 @@ const HostInfo = () => {
   } = User();
   return (
     <div className="flex flex-col justify-center items-center bg-zinc-300 rounded-xl">
+      <p className="text-3xl font-semibold mt-5">Meet Your Host </p>
       {/* Profile Card */}
-      <div className="card w-[450px] bg-base-100 shadow-2xl p-10 border border-gray-300 mt-10">
+      <div className="card md:w-[450px] w-96 bg-base-100 shadow-2xl p-10 border border-gray-300 mt-10">
         <div className=" flex justify-around">
           <div className="flex flex-col justify-center items-center">
             <img src={hostImage} alt="profile" className="rounded-full w-28" />
@@ -44,7 +45,7 @@ const HostInfo = () => {
         </div>
       </div>
       {/* About */}
-      <div className="mt-5 w-[450px]">
+      <div className="mt-5 md:w-[450px] w-96">
         <div className="flex items-center mb-5">
           <div className="mr-3">
             <FaUserGraduate className="text-xl" />
