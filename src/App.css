@@ -2,12 +2,12 @@
 
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "BlinkMacSystemFont", "Helvetica Neue", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 .stick {
   position: sticky;
   top: 2rem;
-  height: 50%;
+  height: 17%;
 }

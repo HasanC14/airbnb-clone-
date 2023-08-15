@@ -38,8 +38,8 @@ function App() {
         </div>
         <Reviews />
         <Map />
-        <Footer />
       </div>
+      <Footer />
     </UserContext>
   );
 }

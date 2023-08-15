@@ -68,7 +68,7 @@ const Reviews = () => {
           </div>
         </div>
         {/* Reviews */}
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mt-5">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mt-10">
           {reviews.map((review) => (
             <div key={review.id}>
               {/* title */}
