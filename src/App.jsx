@@ -1,3 +1,4 @@
+import About from "./Components/About";
 import Hero from "./Components/Hero";
 import HostInfo from "./Components/HostInfo";
 import Navbar from "./Components/Navbar";
@@ -19,6 +20,9 @@ function App() {
               </div>
               <div className="space-y-4">
                 <HostInfo />
+              </div>
+              <div className="space-y-4">
+                <About />
               </div>
             </div>
           </div>
