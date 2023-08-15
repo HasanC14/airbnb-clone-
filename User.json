@@ -4,48 +4,61 @@
     "roomTitle": "Cozy Loft with a Beautiful View of Dhaka",
     "reviewCount":"2062",
     "years": "8",
-    "reviews": [
-      {
-        "name": "Hasan",
-        "date": "2023-08-01",
-        "review": "Absolutely loved my stay here! The loft was comfortable and the view was breathtaking.",
-        "img":"https://i.ibb.co/5vBKMZK/hasan.png"
-      },
-      {
-        "name": "Prattay",
-        "date": "2023-07-15",
-        "review": "The host was welcoming and the location was convenient. Would recommend to others!",
-              "img":"https://i.ibb.co/Pr74wP0/prattay.png"
-      },
-      {
-        "name": "Mehedi",
-        "date": "2023-06-25",
-        "review": "Spent a relaxing weekend at this loft. The rooftop garden was a highlight.",
-              "img":"https://i.ibb.co/sWhZtQB/mehedi.png"
   
-      },
-      {
-        "name": "Sithi",
-        "date": "2023-05-12",
-        "review": "Had a great time here. The loft is stylish and the amenities are top-notch.",
-              "img":"https://i.ibb.co/hLknjcy/sithi.png"
-  
-      },
-      {
-        "name": "Asha",
-        "date": "2023-04-18",
-        "review": "Stayed for a business trip. The location was ideal and the space was comfortable for work and rest.",
-              "img":"https://i.ibb.co/DLfLn13/asha.png"
-      },
-      {
-        "name": "Maruf",
-        "date": "2023-03-05",
-        "review": "The loft was clean and well-maintained. Loved the city view from the windows.",
-              "img":"https://i.ibb.co/ZWf8PKR/maruf.png"
-      }  ],
+      "reviews": [
+        {
+          "name": "Hasan",
+          "id": "1",
+          "date": "2023-08-01",
+          "formattedDate": "August, 2023",
+          "review": "Absolutely loved my stay here! The loft was comfortable and the view was breathtaking.",
+          "img": "https://i.ibb.co/5vBKMZK/hasan.png"
+        },
+        {
+          "name": "Prattay",
+          "id": "2",
+          "date": "2023-07-15",
+          "formattedDate": "July, 2023",
+          "review": "The host was welcoming and the location was convenient. Would recommend to others!",
+          "img": "https://i.ibb.co/Pr74wP0/prattay.png"
+        },
+        {
+          "name": "Mehedi",
+          "id": "3",
+          "date": "2023-06-25",
+          "formattedDate": "June, 2023",
+          "review": "Spent a relaxing weekend at this loft. The rooftop garden was a highlight.",
+          "img": "https://i.ibb.co/sWhZtQB/mehedi.png"
+        },
+        {
+          "name": "Sithi",
+          "id": "4",
+          "date": "2023-05-12",
+          "formattedDate": "May, 2023",
+          "review": "Had a great time here. The loft is stylish and the amenities are top-notch.",
+          "img": "https://i.ibb.co/hLknjcy/sithi.png"
+        },
+        {
+          "name": "Asha",
+          "id": "5",
+          "date": "2023-04-18",
+          "formattedDate": "April, 2023",
+          "review": "Stayed for a business trip. The location was ideal and the space was comfortable for work and rest.",
+          "img": "https://i.ibb.co/DLfLn13/asha.png"
+        },
+        {
+          "name": "Maruf",
+          "id": "6",
+          "date": "2023-03-05",
+          "formattedDate": "March, 2023",
+          "review": "The loft was clean and well-maintained. Loved the city view from the windows.",
+          "img": "https://i.ibb.co/ZWf8PKR/maruf.png"
+        }
+      ],
     "star": "4.8",
     "location": "Dhaka, Bangladesh",
     "locationDetails": "Close to shops, restaurants, and public transport.",
+    "locationFullDetails": "Dhaka is the capital city of Bangladesh, in southern Asia. Set beside the Buriganga River, it’s at the center of national government, trade and culture. The 17th-century old city was the Mughal capital of Bengal, and many palaces and mosques remain. American architect Louis Khan’s National Parliament House complex typifies the huge, fast-growing modern metropolis.",
     "tags": "Superhost",
     "price": "2000৳",
     "university": "Green University of Bangladesh",

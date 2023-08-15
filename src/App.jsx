@@ -1,8 +1,12 @@
+import "./App.css";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import HostInfo from "./Components/HostInfo";
+import Map from "./Components/Map";
 import Navbar from "./Components/Navbar";
 import OrderCard from "./Components/OrderCard";
+import Reviews from "./Components/Reviews";
 import RoomInfo from "./Components/RoomInfo";
 import UserContext from "./Context/UserContext";
 
@@ -27,11 +31,14 @@ function App() {
             </div>
           </div>
           <div className="md:w-1/3 hidden md:block">
-            <div className="sticky top-8">
+            <div className="stick top-8 ">
               <OrderCard />
             </div>
           </div>
         </div>
+        <Reviews />
+        <Map />
+        <Footer />
       </div>
     </UserContext>
   );

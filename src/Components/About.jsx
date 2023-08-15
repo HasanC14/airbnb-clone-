@@ -1,4 +1,12 @@
-import { FaBed } from "react-icons/fa6";
+import {
+  FaBed,
+  FaKitchenSet,
+  FaBath,
+  FaRegLightbulb,
+  FaWifi,
+  FaCamera,
+  FaBriefcase,
+} from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -32,6 +40,7 @@ const About = () => {
       </dialog>
       <hr className="mt-8 mb-8" />
       <p className="text-2xl mb-5 font-semibold">Where you'll sleep </p>
+
       <div className="grid grid-cols-3 gap-3">
         <div className="border border-gray-300 flex flex-col justify-around items-center pl-5 pr-5 pt-7 pb-7 rounded-xl">
           <FaBed className="text-2xl" />
@@ -39,6 +48,65 @@ const About = () => {
           <p>1 double bed</p>
         </div>
         <div></div>
+      </div>
+      <hr className="mt-8 mb-8" />
+
+      <div className="mt-5">
+        <p className="text-2xl mb-5 font-semibold">What this place offers </p>
+        <div className="flex justify-between">
+          <div>
+            <div className="flex items-center mb-5">
+              <div className="mr-3">
+                <FaKitchenSet className="text-xl" />
+              </div>
+              <div>
+                <p className="text-lg">Kitchen</p>
+              </div>
+            </div>
+            <div className="flex items-center mb-5">
+              <div className="mr-3">
+                <FaBriefcase className="text-xl" />
+              </div>
+              <div>
+                <p className="text-lg">Luggage dropoff allowed</p>
+              </div>
+            </div>
+            <div className="flex items-center mb-5">
+              <div className="mr-3">
+                <FaRegLightbulb className="text-xl" />
+              </div>
+              <div>
+                <p className="text-lg">Dedicated workspace</p>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <div className="flex items-center mb-5">
+              <div className="mr-3">
+                <FaCamera className="text-xl" />
+              </div>
+              <div>
+                <p className="text-lg">Security cameras on property</p>
+              </div>
+            </div>
+            <div className="flex items-center mb-5">
+              <div className="mr-3">
+                <FaBath className="text-xl" />
+              </div>
+              <div>
+                <p className="text-lg">Bathtub</p>
+              </div>
+            </div>
+            <div className="flex items-center mb-5">
+              <div className="mr-3">
+                <FaWifi className="text-xl" />
+              </div>
+              <div>
+                <p className="text-lg">Wifi</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <hr className="mt-8 mb-8" />
     </div>

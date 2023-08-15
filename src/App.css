@@ -6,3 +6,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+.stick {
+  position: sticky;
+  top: 2rem;
+  height: 50%;
+}
