@@ -12,7 +12,7 @@ const OrderCard = () => {
     if (Guest != 0) return setGuest(Guest - 1);
   };
   return (
-    <div className="card w-96 bg-base-100 shadow-2xl p-5">
+    <div className="card w-96 bg-base-100 shadow-2xl p-5 border border-gray-300 mt-10">
       {/* Head */}
       <div className="flex justify-between">
         <div className="text-2xl font-bold">{price}</div>
@@ -30,12 +30,12 @@ const OrderCard = () => {
       </div>
       {/* Date */}
       <div className="flex justify-around border border-black rounded-lg mt-4">
-        <div className="flex flex-col border-r-black ">
-          <label className="text-xs ml-3">CHECK-IN</label>
+        <div className="flex flex-col border-r-black p-3">
+          <label className="text-xs ml-3 font-semibold">CHECK-IN</label>
           <input type="date" className="border-none text-sm" />
         </div>
-        <div className="flex flex-col border-l border-l-black">
-          <label className="text-xs ml-3 ">CHECKOUT</label>
+        <div className="flex flex-col border-l border-l-black p-3">
+          <label className="text-xs ml-3 font-semibold">CHECKOUT</label>
           <input type="date" className="border-none text-sm" />
         </div>
       </div>

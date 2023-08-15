@@ -22,7 +22,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 hidden md:block">
             <div className="sticky top-8">
               <OrderCard />
             </div>
