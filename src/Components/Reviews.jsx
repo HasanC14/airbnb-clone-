@@ -3,7 +3,7 @@ import { User } from "../Context/UserContext";
 const Reviews = () => {
   const { star, reviewCount, reviews } = User();
   if (!reviews) {
-    return <p>Loading...</p>; // Show loading state while data is being fetched
+    return <p>Loading...</p>;
   }
   return (
     <div>

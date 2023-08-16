@@ -17,6 +17,9 @@ const HostInfo = () => {
     university,
     work,
   } = User();
+  if (!hostImage) {
+    return <p>Loading...</p>;
+  }
   return (
     <div className="flex flex-col justify-center items-center bg-zinc-300 rounded-xl">
       <p className="text-3xl font-semibold mt-5">Meet Your Host </p>

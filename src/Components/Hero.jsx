@@ -12,6 +12,9 @@ const Hero = () => {
     location,
     tags,
   } = User();
+  if (!images1) {
+    return <p>Loading...</p>;
+  }
   return (
     <div className="flex flex-col-reverse md:flex-col">
       <div className="mt-5 mb-5">
