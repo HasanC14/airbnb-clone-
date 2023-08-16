@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="navbar bg-base-100 max-w-6xl ">
         <div className="navbar-start">
           <img
-            src="/public/navlogo.png"
+            src="/navlogo.png"
             className="md:btn md:btn-ghost hidden normal-case text-xl"
           />
         </div>
@@ -25,7 +25,6 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-
         <div className="navbar-end">
           <div className="dropdown dropdown-end flex justify-center items-center">
             <a

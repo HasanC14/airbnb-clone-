@@ -4,7 +4,7 @@ const USER_CONTEXT = createContext();
 const UserContext = ({ children }) => {
   const [Data, setData] = useState([]);
   useEffect(() => {
-    fetch("../../User.json")
+    fetch("/User.json")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
