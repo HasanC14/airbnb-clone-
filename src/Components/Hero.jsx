@@ -60,6 +60,9 @@ const Hero = () => {
         <img src={images4} alt="" className="md:block hidden" />
         <img src={images1} alt="" className="rounded-r-xl md:block hidden" />
       </div>
+      <button className="absolute bottom-[530px] right-5 md:hidden block  text-sm font-semibold text-white bg-black bg-opacity-50 p-1 rounded">
+        1/4
+      </button>
     </div>
   );
 };

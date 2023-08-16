@@ -21,8 +21,8 @@ const HostInfo = () => {
     <div className="flex flex-col justify-center items-center bg-zinc-300 rounded-xl">
       <p className="text-3xl font-semibold mt-5">Meet Your Host </p>
       {/* Profile Card */}
-      <div className="card md:w-[450px] w-96 bg-base-100 shadow-2xl p-10 border border-gray-300 mt-10">
-        <div className=" flex justify-around">
+      <div className="card md:w-[450px] w-80 bg-base-100 shadow-2xl p-10 border border-gray-300 mt-10 static">
+        <div className=" flex justify-between md:justify-around">
           <div className="flex flex-col justify-center items-center">
             <img src={hostImage} alt="profile" className="rounded-full w-28" />
             <p className="text-2xl font-bold">{hostName}</p>
@@ -45,7 +45,7 @@ const HostInfo = () => {
         </div>
       </div>
       {/* About */}
-      <div className="mt-5 md:w-[450px] w-96">
+      <div className="mt-5 md:w-[450px] w-80">
         <div className="flex items-center mb-5">
           <div className="mr-3">
             <FaUserGraduate className="text-xl" />

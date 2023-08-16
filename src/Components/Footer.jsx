@@ -204,7 +204,7 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-between mt-10 flex-col-reverse md:flex-row">
-          <div className="flex justify-start md:justify-between mt-5 md:m-0">
+          <div className="flex justify-start md:justify-between mt-5 mb-10 md:m-0">
             <div className="text-sm mr-5">© 2023 Airbnb, Inc.</div>
             <a href="/" className="hover:underline text-sm mr-5">
               Terms

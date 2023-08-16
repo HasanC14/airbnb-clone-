@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="navbar-start">
           <img
             src="/public/navlogo.png"
-            className="btn btn-ghost normal-case text-xl"
+            className="md:btn md:btn-ghost hidden normal-case text-xl"
           />
         </div>
         <div className="navbar-center">
@@ -34,7 +34,7 @@ const Navbar = () => {
             >
               Airbnb your home
             </a>
-            <label className="btn btn-ghost btn-circle avatar">
+            <label className="md:btn md:btn-ghost md:btn-circle avatar hidden ">
               <FaEarthAmericas />
             </label>
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
